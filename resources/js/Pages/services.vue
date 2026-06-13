@@ -57,7 +57,7 @@ const togglecontroller = useToggleBurger();
                                                 </div>
     
                                                 <div class="d-flex flex-column gap-3 mb-3 nix-overlay-top">
-                                                    <span class="fw-bold fs-3 text-white">Logistics Solutions</span>
+                                                    <span class="fw-bold fs-3 text-white">Logistics Solutions.</span>
                                                     <span class="text-white">
                                                         From pickup to final delivery, Fedshipment provides end-to-end logistics solutions designed to keep your goods moving efficiently. We streamline transportation, route planning, and shipment management to ensure timely and secure deliveries for businesses and individuals.
                                                     </span>

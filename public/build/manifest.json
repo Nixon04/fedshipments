@@ -1,0 +1,435 @@
+{
+  "_@inertiajs-idqzzcli.js": {
+    "file": "assets/@inertiajs-idqzzcli.js",
+    "name": "@inertiajs"
+  },
+  "_aside-BBcxN0Au.js": {
+    "file": "assets/aside-BBcxN0Au.js",
+    "name": "aside",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_@inertiajs-idqzzcli.js",
+      "_auth-controller-YMuzI5xK.js"
+    ]
+  },
+  "_auth-controller-YMuzI5xK.js": {
+    "file": "assets/auth-controller-YMuzI5xK.js",
+    "name": "auth-controller",
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_axios-eZZc_yEl.js",
+      "_pinia-B6rer990.js",
+      "_vue-sonner-CNRxR9rf.js"
+    ]
+  },
+  "_axios-eZZc_yEl.js": {
+    "file": "assets/axios-eZZc_yEl.js",
+    "name": "axios",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js"
+    ]
+  },
+  "_bootstrap-DMFBxjQs.css": {
+    "file": "assets/bootstrap-DMFBxjQs.css",
+    "src": "_bootstrap-DMFBxjQs.css"
+  },
+  "_footer-CpTBjbCL.js": {
+    "file": "assets/footer-CpTBjbCL.js",
+    "name": "footer",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_@inertiajs-idqzzcli.js"
+    ]
+  },
+  "_general-table-qnopmzjN.js": {
+    "file": "assets/general-table-qnopmzjN.js",
+    "name": "general-table",
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_pinia-B6rer990.js"
+    ]
+  },
+  "_general_ads_info-DBDI0NvW.js": {
+    "file": "assets/general_ads_info-DBDI0NvW.js",
+    "name": "general_ads_info",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_@inertiajs-idqzzcli.js"
+    ]
+  },
+  "_headers-DVdklr0R.js": {
+    "file": "assets/headers-DVdklr0R.js",
+    "name": "headers",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_@inertiajs-idqzzcli.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "_lodash-es-5V_fX55d.js": {
+    "file": "assets/lodash-es-5V_fX55d.js",
+    "name": "lodash-es"
+  },
+  "_pinia-B6rer990.js": {
+    "file": "assets/pinia-B6rer990.js",
+    "name": "pinia",
+    "imports": [
+      "_@inertiajs-idqzzcli.js"
+    ]
+  },
+  "_rolldown-runtime-DK3Fl9T5.js": {
+    "file": "assets/rolldown-runtime-DK3Fl9T5.js",
+    "name": "rolldown-runtime"
+  },
+  "_three-BrNqSLKV.js": {
+    "file": "assets/three-BrNqSLKV.js",
+    "name": "three"
+  },
+  "_toggle-burger-C_sjrZy7.js": {
+    "file": "assets/toggle-burger-C_sjrZy7.js",
+    "name": "toggle-burger",
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_pinia-B6rer990.js"
+    ]
+  },
+  "_top-header-lgkR1474.js": {
+    "file": "assets/top-header-lgkR1474.js",
+    "name": "top-header",
+    "imports": [
+      "_rolldown-runtime-DK3Fl9T5.js",
+      "_@inertiajs-idqzzcli.js"
+    ]
+  },
+  "_vue-sonner-CNRxR9rf.js": {
+    "file": "assets/vue-sonner-CNRxR9rf.js",
+    "name": "vue-sonner",
+    "imports": [
+      "_@inertiajs-idqzzcli.js"
+    ],
+    "css": [
+      "assets/vue-sonner-Ds1aFT64.css"
+    ]
+  },
+  "_vue-sonner-Ds1aFT64.css": {
+    "file": "assets/vue-sonner-Ds1aFT64.css",
+    "src": "_vue-sonner-Ds1aFT64.css"
+  },
+  "public/OTF/FFF-AcidGrotesk-Black-TRIAL.otf": {
+    "file": "assets/FFF-AcidGrotesk-Black-TRIAL-ClBznlE2.otf",
+    "src": "public/OTF/FFF-AcidGrotesk-Black-TRIAL.otf"
+  },
+  "public/OTF/FFF-AcidGrotesk-Medium-TRIAL.otf": {
+    "file": "assets/FFF-AcidGrotesk-Medium-TRIAL-CEplgeJL.otf",
+    "src": "public/OTF/FFF-AcidGrotesk-Medium-TRIAL.otf"
+  },
+  "public/OTf/FFF-AcidGrotesk-Light-TRIAL.otf": {
+    "file": "assets/FFF-AcidGrotesk-Light-TRIAL-BvQ1h8Vs.otf",
+    "src": "public/OTf/FFF-AcidGrotesk-Light-TRIAL.otf"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BRqrT8a2.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/about-us.vue": {
+    "file": "assets/about-us-BqynTfzG.js",
+    "name": "about-us",
+    "src": "resources/js/Pages/about-us.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/c/tracking-location.vue": {
+    "file": "assets/tracking-location-Bmwvgw3b.js",
+    "name": "tracking-location",
+    "src": "resources/js/Pages/c/tracking-location.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_three-BrNqSLKV.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/contact.vue": {
+    "file": "assets/contact-79nvTnE3.js",
+    "name": "contact",
+    "src": "resources/js/Pages/contact.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/home.vue": {
+    "file": "assets/home-B-GvVlAt.js",
+    "name": "home",
+    "src": "resources/js/Pages/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/backend/login.vue": {
+    "file": "assets/login-jWVGJJLp.js",
+    "name": "login",
+    "src": "resources/js/Pages/jay-funds/backend/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_headers-DVdklr0R.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/history.vue": {
+    "file": "assets/history-Cy5xpcHk.js",
+    "name": "history",
+    "src": "resources/js/Pages/jay-funds/dashboard/history.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/home.vue": {
+    "file": "assets/home-Cmv09MM0.js",
+    "name": "home",
+    "src": "resources/js/Pages/jay-funds/dashboard/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_lodash-es-5V_fX55d.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_general-table-qnopmzjN.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/settings.vue": {
+    "file": "assets/settings-wShiN9n_.js",
+    "name": "settings",
+    "src": "resources/js/Pages/jay-funds/dashboard/settings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/shipment-update.vue": {
+    "file": "assets/shipment-update-DCxEGA2L.js",
+    "name": "shipment-update",
+    "src": "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_lodash-es-5V_fX55d.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_general-table-qnopmzjN.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/shipment.vue": {
+    "file": "assets/shipment-CYLu24pf.js",
+    "name": "shipment",
+    "src": "resources/js/Pages/jay-funds/dashboard/shipment.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_lodash-es-5V_fX55d.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_general-table-qnopmzjN.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/privacy.vue": {
+    "file": "assets/privacy-D7r2gUzy.js",
+    "name": "privacy",
+    "src": "resources/js/Pages/privacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js"
+    ]
+  },
+  "resources/js/Pages/services.vue": {
+    "file": "assets/services-DIzdULGw.js",
+    "name": "services",
+    "src": "resources/js/Pages/services.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/services/air-freight.vue": {
+    "file": "assets/air-freight-BCaYbBfB.js",
+    "name": "air-freight",
+    "src": "resources/js/Pages/services/air-freight.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/services/brokage.vue": {
+    "file": "assets/brokage-Dec_bim1.js",
+    "name": "brokage",
+    "src": "resources/js/Pages/services/brokage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/services/logistics.vue": {
+    "file": "assets/logistics-BAJ2m4fZ.js",
+    "name": "logistics",
+    "src": "resources/js/Pages/services/logistics.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/services/ocean-freight.vue": {
+    "file": "assets/ocean-freight-B8JE4iHj.js",
+    "name": "ocean-freight",
+    "src": "resources/js/Pages/services/ocean-freight.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/services/warehouse.vue": {
+    "file": "assets/warehouse-DLNkgyjK.js",
+    "name": "warehouse",
+    "src": "resources/js/Pages/services/warehouse.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/Pages/tracker.vue": {
+    "file": "assets/tracker-CS43CMPD.js",
+    "name": "tracker",
+    "src": "resources/js/Pages/tracker.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "_auth-controller-YMuzI5xK.js",
+      "_toggle-burger-C_sjrZy7.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-VZARfMux.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_pinia-B6rer990.js",
+      "_vue-sonner-CNRxR9rf.js"
+    ],
+    "dynamicImports": [
+      "resources/js/Pages/about-us.vue",
+      "resources/js/Pages/c/tracking-location.vue",
+      "_footer-CpTBjbCL.js",
+      "_general_ads_info-DBDI0NvW.js",
+      "_headers-DVdklr0R.js",
+      "resources/js/Pages/contact.vue",
+      "resources/js/Pages/home.vue",
+      "resources/js/Pages/jay-funds/backend/login.vue",
+      "_aside-BBcxN0Au.js",
+      "_top-header-lgkR1474.js",
+      "resources/js/Pages/jay-funds/dashboard/history.vue",
+      "resources/js/Pages/jay-funds/dashboard/home.vue",
+      "resources/js/Pages/jay-funds/dashboard/settings.vue",
+      "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
+      "resources/js/Pages/jay-funds/dashboard/shipment.vue",
+      "resources/js/Pages/privacy.vue",
+      "resources/js/Pages/services/air-freight.vue",
+      "resources/js/Pages/services/brokage.vue",
+      "resources/js/Pages/services/logistics.vue",
+      "resources/js/Pages/services/ocean-freight.vue",
+      "resources/js/Pages/services/warehouse.vue",
+      "resources/js/Pages/services.vue",
+      "resources/js/Pages/tracker.vue"
+    ],
+    "css": [
+      "assets/app-BTFN6eJ_.css",
+      "assets/bootstrap-DMFBxjQs.css"
+    ],
+    "assets": [
+      "assets/FFF-AcidGrotesk-Light-TRIAL-BvQ1h8Vs.otf",
+      "assets/FFF-AcidGrotesk-Medium-TRIAL-CEplgeJL.otf",
+      "assets/FFF-AcidGrotesk-Black-TRIAL-ClBznlE2.otf"
+    ]
+  }
+}
