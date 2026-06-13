@@ -126,7 +126,7 @@ onBeforeUnmount(() => {
                 
                                         <div class="d-flex flex-column gap-2">
                                             <span :class="activeStep === 1 ? 'text-white' : 'nix-muted-text'">
-                                                Book Shipment
+                                                Book Shipment.
                                             </span>
                 
                                             <span class="fs-2 fw-bold"
