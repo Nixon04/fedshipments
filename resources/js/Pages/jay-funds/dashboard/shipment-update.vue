@@ -132,7 +132,7 @@ onMounted(() => {
                                     <select name="" v-model="auth_controller.status_report" class="form-select py-4">
                                         <option value="picked_up">PickUp</option>
                                         <option value="in_transit">in_transit</option>
-                                        <option value="checkpoint">checkpoint</option>
+                                        <!-- <option value="checkpoint">checkpoint</option> -->
                                         <option value="arrived">Arrived</option>
                                         <option value="out_for_delivery">Out For Delivery</option>
                                         <option value="delivered">Delivered</option>

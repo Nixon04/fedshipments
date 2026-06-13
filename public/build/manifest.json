@@ -251,7 +251,7 @@
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/shipment-update.vue": {
-    "file": "assets/shipment-update-BEgLbExn.js",
+    "file": "assets/shipment-update-f9BSJqPM.js",
     "name": "shipment-update",
     "src": "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
     "isDynamicEntry": true,
@@ -388,7 +388,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-C2bBUZKT.js",
+    "file": "assets/app-BTeWMx8G.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
