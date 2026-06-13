@@ -37,7 +37,7 @@ onBeforeUnmount(() => {
 <template>
     <div>
         <header>
-            <title>FedShipments | About Us</title>
+            <title>FedShipments | About Us.</title>
         </header>
         <div class="nix-main">
             <headers/>
