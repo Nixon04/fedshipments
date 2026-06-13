@@ -1,0 +1,344 @@
+/* information right all belongs to Nivexia Health Care */
+
+@media(min-width: 991px){
+    .d-desktop-disable{
+        display: none;
+    }
+
+        .mobile-display-none{
+            display: none!important;
+        }
+        .fundtocare-main-body{
+            max-width: 1200px;
+        }
+
+          .display-mobile-none{
+        display: none;
+    }
+    
+}
+/* lower version devices for screen sizes */
+@media(max-width: 991px){
+    .d-mobile-disable{
+        display: none!important;
+    }
+
+  
+
+    .pointer{
+        cursor: pointer!important;
+    }
+
+    .nix-float-left{
+        position: absolute;
+        bottom: -50px;
+        left: 10px;
+        z-index: 1;
+    }
+
+    .min-auto-flex-hero{
+        padding: 15px;
+    }
+    
+    .nix-float-right{
+        position: absolute;
+        top: -50px;
+        right: 10px;
+        z-index: 1;
+    }
+    .nix-advert-card{
+        background: #fff;
+        width: 98%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .card-list-x-pricing{
+        position: relative;
+        flex-shrink: 0;
+        text-wrap: wrap;
+        width: 430px;
+        border: 1px solid var(--light-grey);
+        border-radius: 20px;
+        padding: 20px;
+        height: auto;
+    }
+ 
+    .pointer-events-none{
+        pointer-events: none!important;
+    }
+
+    .img-fluid-contain{
+        object-fit: contain;
+        height: calc(100vh - 30%);
+    }
+
+    .booking-flex{
+        width: 95%;
+       }
+
+    .nix-service-card-center{
+        height: auto;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .nix-float-left{
+        position: absolute;
+        bottom: -50px;
+        left: 30px;
+        z-index: 1;
+    }
+
+    .img-fluid-nix-x{
+        max-width: 180px;
+    }
+
+    .nix-float-right{
+        position: absolute;
+        top: -50px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .display-none{
+        display: none!important;
+    }
+
+    .min-auto-flex{
+        padding: 10px;
+    }
+    .aside-container{
+      width: 0px;
+      display: none;
+    }
+    .aside-container.show{
+        display: block;
+        width: 100%;
+        position: fixed;
+        inset: 0;
+        height: 100vh;
+        background: var(--white-background);
+        z-index: 99;
+    }
+
+    .image-45{
+        width: 100%;
+        height: 100px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+    
+    .image-75{
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    
+
+   .aside-y-auto-content{
+        width: calc(100% - 0px);
+        padding: 0px;
+        margin: 0;
+    }
+    .h-auto-75{
+        height: 50%;
+    }
+    .li-flex-x:active{
+        width: 100%!important;
+        background: var(--faint-green)!important;
+        color: var(--main-green);
+    }
+    .li-flex-x:hover{
+        background: var(--slim-light);
+    }
+    .header-align-container{
+      width: calc(100% - 0px);
+    }
+    .main-body-column{
+        height: calc(100vh - 120px);
+        width: calc(100% - 0px);
+    }
+    .w-75-auto{
+        width: 100%;
+      }
+
+      .container-centered-width-50{
+        width: 100%;
+        padding: 0;
+      }
+
+      .sub-image-container{
+        position: absolute;
+        background: var(--white-background);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        padding: 12px;
+        border-radius: 25px;
+    }
+    
+    .blur-context-container{
+        top: auto;
+        transform: none;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .container-centered-width-50-auto{
+        padding: 10px;
+    }
+    .blur-context-container-auto-fix{
+        top: auto;
+        transform: none;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .blur-context-container-min{
+        top: auto;
+        transform: none;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+    } 
+
+    .overlay-min-shrink {
+        opacity: 1;
+    }
+    .card-shadow-xbox{
+        padding: 10px;
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    .auto-center-container{
+        width: 95%;
+    }
+
+    .bg-left-stack{
+        position: absolute;
+        left: -20%;
+        max-width: 100%;
+    }
+    .bg-right-stack{
+        position: absolute;
+        right: -20%;
+        max-width: 100%;
+    }
+
+    .footer-hint_text {
+        display: block;        
+        width: 100%;           
+        text-align: center;  
+        font-size: 5rem;      
+        color: #F4F4F4;
+        line-height: 1;
+    }
+    .auth-left-auto{
+        display: none;
+    }
+
+    .pad-region-inset{
+        padding: 20px;
+      }
+      .auth-main-body{
+        width: calc(100% - 5%);
+    }
+    .auth-right-auto{
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+     .fundtocare-main{
+        width: 98%;
+        scrollbar-width: none;
+     }
+     .campaign-link-flex{
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .pad-all-round{
+        padding: 0px;
+    }
+
+    .blur-list-items{
+        height: auto;
+    }
+    
+    .blur-campaign-flex{
+        position: absolute;
+        display: flex;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        transform: none;
+        width: 100%;
+    }
+
+    .width-min-50{
+        width: 100%;
+        margin: auto;
+    }
+
+    .image-250{
+        height: 120px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .bg-image-bottom{
+        position: absolute;
+        z-index: -1;
+        bottom: -120px;
+        right: -90px;
+        transform: rotate(-20deg);
+       }
+
+    .card-box-shadow{
+        height: auto;
+        background: var(--white-background);
+        border-radius: 12px;
+        padding: 1rem;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .donate-bottom{ 
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        background: var(--white-background);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .donate-bottom.hide{
+        transform: translateY(120%);
+        opacity: 0;
+    }
+    
+    .index-chart-container{
+        padding: 12px;
+    }
+    .footer-hr{
+        position: relative;
+        top: -24px;
+    }
+    .hover-center-fill-column{
+       width: 95%;
+    }
+
+    
+}

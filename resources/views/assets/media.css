@@ -1,0 +1,19 @@
+/* information right all belongs to Nivexia Health Care */
+
+@media(min-width: 991px){
+    .d-desktop-disable{
+        display: none;
+    }
+}
+/* lower version devices for screen sizes */
+@media(max-width: 991px){
+    .d-mobile-disable{
+        display: none!important;
+    }
+
+    .pointer{
+        cursor: pointer!important;
+    }
+    
+    
+}
