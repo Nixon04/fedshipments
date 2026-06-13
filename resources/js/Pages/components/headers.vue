@@ -53,7 +53,7 @@ import { useToggleBurger } from '../reactive-component/toggle-burger';
 
 
                         <ul class="nix-flex-mobile-list d-desktop-disable" v-if="toggle.toggle_active">
-                            <Link href="/about-us" class="nix-li">
+                            <Link href="/about-us" class="nix-li" @click="toggle.dismissTap">
                                 <li>
                                     <div>
                                         <span>About us</span>
@@ -61,7 +61,7 @@ import { useToggleBurger } from '../reactive-component/toggle-burger';
                                 </li>
                             </Link>
     
-                            <Link href="/services" class="nix-li">
+                            <Link href="/services" class="nix-li" @click="toggle.dismissTap">
                                 <li>
                                     <div>
                                         <span>Services</span>
@@ -69,7 +69,7 @@ import { useToggleBurger } from '../reactive-component/toggle-burger';
                                 </li>    
                             </Link>
     
-                            <Link href="/tracker" class="nix-li">
+                            <Link href="/tracker" class="nix-li" @click="toggle.dismissTap">
                                 <li >
                                     <div>
                                         <span>Track</span>
@@ -77,7 +77,7 @@ import { useToggleBurger } from '../reactive-component/toggle-burger';
                                 </li>
                             </Link>
     
-                           <Link href="/contact" class="nix-li">
+                           <Link href="/contact" class="nix-li" @click="toggle.dismissTap">
                             <li >
                                 <div>
                                     <span>Contact</span>

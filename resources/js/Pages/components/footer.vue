@@ -30,7 +30,7 @@ const LogoImages = (filename: any) => `/icons_logos/${filename}`;
                             <div class="col-lg-4">
                                 <div class="d-flex flex-column gap-3">
                                     <span class="fs-5 fw-bold text-white">Company</span>
-                                    <ul class="d-flex flex-column gap-3">
+                                    <ul class="d-flex flex-column flex-start gap-3">
                                         <Link href="/" class="nix-li">
                                             <li >
                                                 <span>About us</span>
@@ -87,7 +87,7 @@ const LogoImages = (filename: any) => `/icons_logos/${filename}`;
                                             </li>
                                         </Link>
 
-                                        <Link href="/" class="nix-li">
+                                        <Link href="/contact" class="nix-li">
                                             <li >
                                                 <span>Help Center</span>
                                             </li>

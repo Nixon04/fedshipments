@@ -11,7 +11,10 @@ export const useToggleBurger = defineStore('useToggleburger', () => {
         console.log('Log information', toggle_active.value);   
     }
 
-
+    const dismissTap = () => {
+        toggle_active.value = false;
+    }
+ 
     const cancelToggle = () => {
         toggle_active.value = false;
     }
@@ -80,8 +83,8 @@ export const useToggleBurger = defineStore('useToggleburger', () => {
     }
     
   
-
     return {
+        dismissTap,
         indexchange,
         ToggleEventChange,
         navigationstatus,
