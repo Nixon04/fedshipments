@@ -92,7 +92,7 @@ onMounted(() => {
                                     <input type="text"
                                     class="form-control-main py-4"
                                     v-model="auth_controller.title"
-                                     placeholder="Edit Information">
+                                     placeholder="Title">
                                      <div v-if="auth_controller.errors">
                                         <span class="text-danger d-flex justify-content-start w-100">
                                             {{ (auth_controller.errors as any).title?.[0] }}
@@ -107,7 +107,7 @@ onMounted(() => {
                                             <input type="text"
                                             class="form-control-main py-4"
                                             v-model="auth_controller.sender_name"
-                                             placeholder="Edit Information">
+                                             placeholder="Sender Name">
                                              <div v-if="auth_controller.errors">
                                                 <span class="text-danger d-flex justify-content-start w-100">
                                                     {{ (auth_controller.errors as any).sender_name?.[0] }}
@@ -123,7 +123,7 @@ onMounted(() => {
                                             <input type="text"
                                             class="form-control-main py-4"
                                             v-model="auth_controller.receiver_name"
-                                             placeholder="Edit Information">
+                                             placeholder="Receiver Name">
                                              <div v-if="auth_controller.errors">
                                                 <span class="text-danger d-flex justify-content-start w-100">
                                                     {{ (auth_controller.errors as any).receiver_name?.[0] }}
@@ -141,7 +141,7 @@ onMounted(() => {
                                             <input type="text"
                                             class="form-control-main py-4"
                                             v-model="auth_controller.origin"
-                                             placeholder="Edit Information">
+                                             placeholder="Origin">
                                              <div v-if="auth_controller.errors">
                                                 <span class="text-danger d-flex justify-content-start w-100">
                                                     {{ (auth_controller.errors as any).origin?.[0] }}
@@ -157,7 +157,7 @@ onMounted(() => {
                                             <input type="text"
                                             class="form-control-main py-4"
                                             v-model="auth_controller.destination"
-                                             placeholder="Edit Information">
+                                             placeholder="Destination">
                                              <div v-if="auth_controller.errors">
                                                 <span class="text-danger d-flex justify-content-start w-100">
                                                     {{ (auth_controller.errors as any).destination?.[0] }}
@@ -175,7 +175,7 @@ onMounted(() => {
                                         <input type="date"
                                         class="form-control-main py-4"
                                         v-model="auth_controller.delivery"
-                                         placeholder="Edit Information">
+                                         placeholder="Date">
                                          <div v-if="auth_controller.errors">
                                             <span class="text-danger d-flex justify-content-start w-100">
                                                 {{ (auth_controller.errors as any).delivery?.[0] }}
