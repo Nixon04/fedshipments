@@ -234,7 +234,7 @@ const togglecontroller = useToggleBurger();
                             <div class="d-flex flex-column gap-3">
                                 <span class="fs-1 text-dark">We Deliver Everywhere That Matters.</span>
                                 <span class="text-dark">
-                                    From local neighborhoods to international destinations, Otilo Logistics connects businesses and people across regions with a strong global delivery network.
+                                    From local neighborhoods to international destinations, Fedshipments connects businesses and people across regions with a strong global delivery network.
                                 </span>
                             </div>
 
