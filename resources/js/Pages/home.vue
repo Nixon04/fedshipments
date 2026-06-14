@@ -317,7 +317,7 @@ const togglecontroller = useToggleBurger();
                               <div class="d-flex flex-column gap-2 mb-3">
                                 <span class="fw-bold">International Shipping Experience</span>
                                 <span>
-                                  I shipped goods from Nigeria to the UK and everything went smoothly. Customs handling was well managed and I received updates at every stage of the journey.
+                                  I shipped goods from Canada to the UK and everything went smoothly. Customs handling was well managed and I received updates at every stage of the journey.
                                 </span>
                               </div>
                           
