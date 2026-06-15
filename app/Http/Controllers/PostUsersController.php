@@ -268,8 +268,11 @@ class PostUsersController extends Controller
                         'message' => 'Shipment Type Already Created, Make The Goods Unique',
                     ]; 
                 }
+
+                // $numbers = collect(range(1, 20))->map(fn () => str_pad((string)  random_int(0,999999), 6, '0', STR_PAD_LEFT));
+                $numbers = collect(range(1, 20))->map(fn () =>  random_int(0,9))->join('');
         
-                $tracker_code = 'FED-' . Str::random(20);
+                $tracker_code = 'FED' . '-' . $numbers;
                 $reference = Str::uuid();
                 
                 $shipments = Shipment::create([
