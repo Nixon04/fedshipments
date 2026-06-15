@@ -275,10 +275,10 @@ export const useAuthController = defineStore('useauthcontroller', () => {
 
     const updateshipmentloader = ref<boolean>(false);
     const UpdateShipment = async (_csrf: any, reference: any) => {
-        if(loginloader.value) return null;
+        if(updateshipmentloader.value) return null;
         try{
             errors.value = {};
-            shipmentloader.value = true;
+            updateshipmentloader.value = true;
             const url = '/web_api/v1/back-end-api/update-location';
 
             const payload = {
@@ -314,7 +314,7 @@ export const useAuthController = defineStore('useauthcontroller', () => {
         }
 
         finally{
-            shipmentloader.value = false;
+            updateshipmentloader.value = false;
         }
     }
 

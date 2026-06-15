@@ -1095,11 +1095,11 @@ input[type="datetime-local"]{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    height: auto;
-    /* height: calc(100vh - 200px); */
+    /* height: auto; */
+    height: calc(100vh - 200px);
     border-radius: 12px;
     padding: 12px;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 

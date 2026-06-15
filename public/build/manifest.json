@@ -3,17 +3,17 @@
     "file": "assets/@inertiajs-idqzzcli.js",
     "name": "@inertiajs"
   },
-  "_aside-BBcxN0Au.js": {
-    "file": "assets/aside-BBcxN0Au.js",
+  "_aside-CwzqmKzi.js": {
+    "file": "assets/aside-CwzqmKzi.js",
     "name": "aside",
     "imports": [
       "_rolldown-runtime-DK3Fl9T5.js",
       "_@inertiajs-idqzzcli.js",
-      "_auth-controller-YMuzI5xK.js"
+      "_auth-controller-CVxXlMiY.js"
     ]
   },
-  "_auth-controller-YMuzI5xK.js": {
-    "file": "assets/auth-controller-YMuzI5xK.js",
+  "_auth-controller-CVxXlMiY.js": {
+    "file": "assets/auth-controller-CVxXlMiY.js",
     "name": "auth-controller",
     "imports": [
       "_@inertiajs-idqzzcli.js",
@@ -150,7 +150,7 @@
     ]
   },
   "resources/js/Pages/c/tracking-location.vue": {
-    "file": "assets/tracking-location-DZ5UAM66.js",
+    "file": "assets/tracking-location-bEww1jIG.js",
     "name": "tracking-location",
     "src": "resources/js/Pages/c/tracking-location.vue",
     "isDynamicEntry": true,
@@ -161,12 +161,12 @@
       "_footer-BmB79UK8.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/contact.vue": {
-    "file": "assets/contact-BWM1ecb1.js",
+    "file": "assets/contact-BLy_GEAN.js",
     "name": "contact",
     "src": "resources/js/Pages/contact.vue",
     "isDynamicEntry": true,
@@ -176,7 +176,7 @@
       "_footer-BmB79UK8.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
@@ -194,7 +194,7 @@
     ]
   },
   "resources/js/Pages/jay-funds/backend/login.vue": {
-    "file": "assets/login-B1UkSAtg.js",
+    "file": "assets/login-finlrlgb.js",
     "name": "login",
     "src": "resources/js/Pages/jay-funds/backend/login.vue",
     "isDynamicEntry": true,
@@ -202,26 +202,26 @@
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
       "_headers-DAhgQvW3.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/history.vue": {
-    "file": "assets/history-Zn3DoTeX.js",
+    "file": "assets/history-XRX2X6sq.js",
     "name": "history",
     "src": "resources/js/Pages/jay-funds/dashboard/history.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/home.vue": {
-    "file": "assets/home-WrvCuVP8.js",
+    "file": "assets/home-BojlF-4P.js",
     "name": "home",
     "src": "resources/js/Pages/jay-funds/dashboard/home.vue",
     "isDynamicEntry": true,
@@ -229,29 +229,29 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/settings.vue": {
-    "file": "assets/settings-C133ZSNr.js",
+    "file": "assets/settings-C88LkHSC.js",
     "name": "settings",
     "src": "resources/js/Pages/jay-funds/dashboard/settings.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/shipment-update.vue": {
-    "file": "assets/shipment-update-f9BSJqPM.js",
+    "file": "assets/shipment-update-Cp_iT0F-.js",
     "name": "shipment-update",
     "src": "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
     "isDynamicEntry": true,
@@ -259,15 +259,15 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/shipment.vue": {
-    "file": "assets/shipment-Z4-brWpV.js",
+    "file": "assets/shipment-5wSKrVoK.js",
     "name": "shipment",
     "src": "resources/js/Pages/jay-funds/dashboard/shipment.vue",
     "isDynamicEntry": true,
@@ -275,9 +275,9 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
@@ -373,7 +373,7 @@
     ]
   },
   "resources/js/Pages/tracker.vue": {
-    "file": "assets/tracker-iPbUjFtD.js",
+    "file": "assets/tracker-S0DkbChz.js",
     "name": "tracker",
     "src": "resources/js/Pages/tracker.vue",
     "isDynamicEntry": true,
@@ -383,12 +383,12 @@
       "_footer-BmB79UK8.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
-      "_auth-controller-YMuzI5xK.js",
+      "_auth-controller-CVxXlMiY.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CBvHUOCF.js",
+    "file": "assets/app-DK3FW5mm.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -406,7 +406,7 @@
       "resources/js/Pages/contact.vue",
       "resources/js/Pages/home.vue",
       "resources/js/Pages/jay-funds/backend/login.vue",
-      "_aside-BBcxN0Au.js",
+      "_aside-CwzqmKzi.js",
       "_top-header-lgkR1474.js",
       "resources/js/Pages/jay-funds/dashboard/history.vue",
       "resources/js/Pages/jay-funds/dashboard/home.vue",
@@ -423,7 +423,7 @@
       "resources/js/Pages/tracker.vue"
     ],
     "css": [
-      "assets/app-BTFN6eJ_.css",
+      "assets/app-BkKr5qGy.css",
       "assets/bootstrap-DMFBxjQs.css"
     ],
     "assets": [

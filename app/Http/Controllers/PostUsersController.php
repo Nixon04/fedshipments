@@ -269,7 +269,7 @@ class PostUsersController extends Controller
                     ]; 
                 }
         
-                $tracker_code = 'FED-' . Str::random(6);
+                $tracker_code = 'FED-' . Str::random(20);
                 $reference = Str::uuid();
                 
                 $shipments = Shipment::create([

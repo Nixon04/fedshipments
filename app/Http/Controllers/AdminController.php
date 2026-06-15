@@ -19,7 +19,7 @@ class AdminController extends Controller
 
     public function HomeDashboard(){
 
-        $total = ShipmentTrackingUpdate::orderBy('id', 'DESC')->count();
+        $total = Shipment::orderBy('id', 'DESC')->count();
         $in_transit = ShipmentTrackingUpdate::where('status', 'in_transit')->orderBy('id', 'DESC')->count();
         $delivered = ShipmentTrackingUpdate::where('status', 'delivered')->orderBy('id', 'DESC')->count();
         $data = [

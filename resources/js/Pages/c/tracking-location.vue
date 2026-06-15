@@ -144,6 +144,10 @@ onMounted(() => {
                                         <div class="bg-success-x badge-mask">{{ shipment_info.status}}</div>
                                     </div>
                                 </div>
+
+                                <div class="d-flex flex-column">
+                                    <span>Receiver Name: <strong>{{ shipment_info.receiver_name }}</strong></span>
+                                </div>
                             </div>
 
                             <div class="call-border-card">
@@ -183,9 +187,17 @@ onMounted(() => {
                                         ></div>
                                 </div>
 
-                                <div class="d-flex flex-wrap justify-content-between w-100">
-                                    <span>{{shipment_info.origin}}</span>
-                                    <span>{{shipment_info.destination}}</span>
+                                <div class="d-flex  flex-wrap justify-content-between w-100">
+                                    <div class="d-flex flex-column justify-content-start  flex-start align-items-start">
+                                        <span>Origin</span>
+                                        <span class="fw-bold">{{shipment_info.origin}}</span>
+                                    </div>
+
+                                    <div class="d-flex flex-column justify-content-end  flex-start align-items-start">
+                                        <span>Destination</span>
+                                        <span class="fw-bold">{{shipment_info.destination}}</span>
+                                    </div>
+                                  
                                 </div>
 
                             </div>

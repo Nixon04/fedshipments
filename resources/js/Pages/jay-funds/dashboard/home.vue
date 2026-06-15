@@ -118,7 +118,7 @@ onMounted(() => {
                                 <div class="col-lg-4 col-12">
                                     <div class="card-contents-fill">
                                         <div class="d-flex flex-column gap-3 space-gap-start">
-                                            <span>Transit</span>
+                                            <span>Delivered</span>
                                             <span class="fs-2"> {{ data.delivered }}</span>
                                             <div :class="[Number(0) > 70 ? 'revenue-increase': 'revenue-decrease']">
                                                 <span>{{ 0}} %</span>
