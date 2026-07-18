@@ -120,8 +120,19 @@ const LogoImages = (filename: any) => `/icons_logos/${filename}`;
                     </span>
                 </div>
 
+                <div class="col-lg-12">
+                    <!-- Smartsupp Live Chat script -->
+                      
+                </div>
+
               </div>
             </div>
         </section>
     </div>
 </template>
+
+
+
+
+
+

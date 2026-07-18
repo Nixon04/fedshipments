@@ -33,8 +33,8 @@
     "file": "assets/bootstrap-DMFBxjQs.css",
     "src": "_bootstrap-DMFBxjQs.css"
   },
-  "_footer-BmB79UK8.js": {
-    "file": "assets/footer-BmB79UK8.js",
+  "_footer-Ci1M0pmy.js": {
+    "file": "assets/footer-Ci1M0pmy.js",
     "name": "footer",
     "imports": [
       "_rolldown-runtime-DK3Fl9T5.js",
@@ -137,20 +137,20 @@
     "isEntry": true
   },
   "resources/js/Pages/about-us.vue": {
-    "file": "assets/about-us-CQAThbHD.js",
+    "file": "assets/about-us-Z6MiQiso.js",
     "name": "about-us",
     "src": "resources/js/Pages/about-us.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/c/tracking-location.vue": {
-    "file": "assets/tracking-location-bEww1jIG.js",
+    "file": "assets/tracking-location-CWpZfr5v.js",
     "name": "tracking-location",
     "src": "resources/js/Pages/c/tracking-location.vue",
     "isDynamicEntry": true,
@@ -158,7 +158,7 @@
       "_@inertiajs-idqzzcli.js",
       "_three-BrNqSLKV.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_auth-controller-CVxXlMiY.js",
@@ -166,14 +166,14 @@
     ]
   },
   "resources/js/Pages/contact.vue": {
-    "file": "assets/contact-Czwyi7cl.js",
+    "file": "assets/contact-JpSAp3lm.js",
     "name": "contact",
     "src": "resources/js/Pages/contact.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_auth-controller-CVxXlMiY.js",
@@ -181,13 +181,13 @@
     ]
   },
   "resources/js/Pages/home.vue": {
-    "file": "assets/home-BM30tgaB.js",
+    "file": "assets/home-CdYh7DQt.js",
     "name": "home",
     "src": "resources/js/Pages/home.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
@@ -283,104 +283,104 @@
     ]
   },
   "resources/js/Pages/privacy.vue": {
-    "file": "assets/privacy-CJl7VhSw.js",
+    "file": "assets/privacy-BosEpNQG.js",
     "name": "privacy",
     "src": "resources/js/Pages/privacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js"
     ]
   },
   "resources/js/Pages/services.vue": {
-    "file": "assets/services-oLre2HhT.js",
+    "file": "assets/services-D1_pNnTJ.js",
     "name": "services",
     "src": "resources/js/Pages/services.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/services/air-freight.vue": {
-    "file": "assets/air-freight-CUtfQjKD.js",
+    "file": "assets/air-freight-BTK3GIMp.js",
     "name": "air-freight",
     "src": "resources/js/Pages/services/air-freight.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/services/brokage.vue": {
-    "file": "assets/brokage-Dj_VfX87.js",
+    "file": "assets/brokage-9_G06IoF.js",
     "name": "brokage",
     "src": "resources/js/Pages/services/brokage.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/services/logistics.vue": {
-    "file": "assets/logistics-B7wYnrA7.js",
+    "file": "assets/logistics-DeYwvx3j.js",
     "name": "logistics",
     "src": "resources/js/Pages/services/logistics.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/services/ocean-freight.vue": {
-    "file": "assets/ocean-freight-BxvHTbbf.js",
+    "file": "assets/ocean-freight-D0rIEj2l.js",
     "name": "ocean-freight",
     "src": "resources/js/Pages/services/ocean-freight.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/services/warehouse.vue": {
-    "file": "assets/warehouse-BKSKy7BR.js",
+    "file": "assets/warehouse-DCCgW13N.js",
     "name": "warehouse",
     "src": "resources/js/Pages/services/warehouse.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/tracker.vue": {
-    "file": "assets/tracker-S0DkbChz.js",
+    "file": "assets/tracker-B73CQ0Ee.js",
     "name": "tracker",
     "src": "resources/js/Pages/tracker.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "_auth-controller-CVxXlMiY.js",
@@ -388,7 +388,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-C5oJhLuv.js",
+    "file": "assets/app-B7BcO1s0.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -400,7 +400,7 @@
     "dynamicImports": [
       "resources/js/Pages/about-us.vue",
       "resources/js/Pages/c/tracking-location.vue",
-      "_footer-BmB79UK8.js",
+      "_footer-Ci1M0pmy.js",
       "_general_ads_info-B-6PkXLr.js",
       "_headers-DAhgQvW3.js",
       "resources/js/Pages/contact.vue",
