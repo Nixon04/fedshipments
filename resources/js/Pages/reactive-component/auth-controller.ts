@@ -196,6 +196,26 @@ export const useAuthController = defineStore('useauthcontroller', () => {
         }
     }
 
+
+    
+
+    const emailreceiver = ref<[]>([]);
+    const EmailReceiverPost = async (csrf_token: any, params: { page?: number; per_page?: number; search?: string } = {}) => {
+      try {
+        const response = await axios.get('/web_api/v1/back-end-api/email-receiver', {
+          params: { ...params },
+          headers: { 'X-CSRF-TOKEN': csrf_token },
+        });
+ 
+        console.log('info log', response.data.data.data);
+        emailreceiver.value = response.data.data.data;
+        return response.data;
+      } catch (error) {
+        console.error('API error:', error);
+        throw error;
+      }
+    };
+
     const shipment_lists = ref<[]>([]);
     const ShipmentHistory = async (csrf_token: any, params: { page?: number; per_page?: number; search?: string } = {}) => {
       try {
@@ -488,6 +508,8 @@ export const useAuthController = defineStore('useauthcontroller', () => {
         errors,
         EmailSender,
         emailsenderloader,
+        emailreceiver,
+        EmailReceiverPost,
     }
 
 } )

@@ -49,6 +49,7 @@ Route::controller(PostUsersController::class)->group(function (){
         Route::post('/create-shipment', 'CreateShipment');
         Route::post('/tracking-id', 'TrackerID');
         Route::get('/shipment-history', 'ShipmentLog');
+        Route::get('/email-receiver', 'EmailReceiverPost');
         Route::post('/update-location', 'ShipmentUpdate');
         Route::post('/delete-shipment', 'DeleteShipment');
         Route::post('/update-address', 'CompanyAddress');
@@ -66,6 +67,8 @@ Route::controller(AdminController::class)->group(function (){
         Route::get('/jay-funds/dashboard/home','HomeDashboard');
         Route::get('/jay-funds/dashboard/settings','Settings');
         Route::get('/jay-funds/dashboard/shipment','Shipment');
+        Route::get('/jay-funds/dashboard/receiver','ReceiveNotification');
+        Route::get('/jay-funds/dashboard/read-mail/{id}', 'ReceiverNotificationID');
         Route::get('/jay-funds/dashboard/notification','NotificationSettings');
         Route::get('/jay-funds/dashboard/shipment-update/{id}','ShipmentUpdate');
         Route::get('/jay-funds/dashboard/history','History');

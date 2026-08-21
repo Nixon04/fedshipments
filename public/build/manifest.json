@@ -7,17 +7,17 @@
     "file": "assets/@inertiajs-idqzzcli.js",
     "name": "@inertiajs"
   },
-  "_aside-BMbvmzdC.js": {
-    "file": "assets/aside-BMbvmzdC.js",
+  "_aside-B9qYz83h.js": {
+    "file": "assets/aside-B9qYz83h.js",
     "name": "aside",
     "imports": [
       "_rolldown-runtime-QTnfLwEv.js",
       "_@inertiajs-idqzzcli.js",
-      "_auth-controller-BVQgnTMs.js"
+      "_auth-controller-BThE5c9G.js"
     ]
   },
-  "_auth-controller-BVQgnTMs.js": {
-    "file": "assets/auth-controller-BVQgnTMs.js",
+  "_auth-controller-BThE5c9G.js": {
+    "file": "assets/auth-controller-BThE5c9G.js",
     "name": "auth-controller",
     "imports": [
       "_@inertiajs-idqzzcli.js",
@@ -36,6 +36,10 @@
   "_bootstrap-DMFBxjQs.css": {
     "file": "assets/bootstrap-DMFBxjQs.css",
     "src": "_bootstrap-DMFBxjQs.css"
+  },
+  "_dompurify-CvIXgbbv.js": {
+    "file": "assets/dompurify-CvIXgbbv.js",
+    "name": "dompurify"
   },
   "_editorjs-html-hU98kLAC.js": {
     "file": "assets/editorjs-html-hU98kLAC.js",
@@ -161,7 +165,7 @@
     ]
   },
   "resources/js/Pages/c/tracking-location.vue": {
-    "file": "assets/tracking-location-DrUG3xTg.js",
+    "file": "assets/tracking-location-AItsf-ON.js",
     "name": "tracking-location",
     "src": "resources/js/Pages/c/tracking-location.vue",
     "isDynamicEntry": true,
@@ -172,12 +176,12 @@
       "_footer-CTXQGjXr.js",
       "_general_ads_info-D0_hjWHC.js",
       "_headers-DRrVvBsL.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/contact.vue": {
-    "file": "assets/contact-DR_BG_Fs.js",
+    "file": "assets/contact-CFYTPzjh.js",
     "name": "contact",
     "src": "resources/js/Pages/contact.vue",
     "isDynamicEntry": true,
@@ -187,7 +191,7 @@
       "_footer-CTXQGjXr.js",
       "_general_ads_info-D0_hjWHC.js",
       "_headers-DRrVvBsL.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
@@ -205,7 +209,7 @@
     ]
   },
   "resources/js/Pages/jay-funds/backend/login.vue": {
-    "file": "assets/login-ChczaTqa.js",
+    "file": "assets/login-BNmgu5un.js",
     "name": "login",
     "src": "resources/js/Pages/jay-funds/backend/login.vue",
     "isDynamicEntry": true,
@@ -213,26 +217,26 @@
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
       "_headers-DRrVvBsL.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/history.vue": {
-    "file": "assets/history-COsSD6Ga.js",
+    "file": "assets/history-BePnp82x.js",
     "name": "history",
     "src": "resources/js/Pages/jay-funds/dashboard/history.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/home.vue": {
-    "file": "assets/home-VVdC5gQp.js",
+    "file": "assets/home-Bb97N89A.js",
     "name": "home",
     "src": "resources/js/Pages/jay-funds/dashboard/home.vue",
     "isDynamicEntry": true,
@@ -240,15 +244,15 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/notification.vue": {
-    "file": "assets/notification-D_tg1TXc.js",
+    "file": "assets/notification-Cm55G_qS.js",
     "name": "notification",
     "src": "resources/js/Pages/jay-funds/dashboard/notification.vue",
     "isDynamicEntry": true,
@@ -260,28 +264,59 @@
       "_editorjs-html-hU98kLAC.js",
       "_pinia-B6rer990.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
+      "_toggle-burger-Bj6Vy90_.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/read-mail.vue": {
+    "file": "assets/read-mail-CC3GDGp0.js",
+    "name": "read-mail",
+    "src": "resources/js/Pages/jay-funds/dashboard/read-mail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_dompurify-CvIXgbbv.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-B9qYz83h.js",
+      "_top-header-B2t93HM7.js",
+      "_auth-controller-BThE5c9G.js",
+      "_toggle-burger-Bj6Vy90_.js"
+    ]
+  },
+  "resources/js/Pages/jay-funds/dashboard/receiver.vue": {
+    "file": "assets/receiver-CQjBaKhy.js",
+    "name": "receiver",
+    "src": "resources/js/Pages/jay-funds/dashboard/receiver.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_@inertiajs-idqzzcli.js",
+      "_lodash-es-5V_fX55d.js",
+      "_vue-sonner-CNRxR9rf.js",
+      "_aside-B9qYz83h.js",
+      "_top-header-B2t93HM7.js",
+      "_auth-controller-BThE5c9G.js",
+      "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/settings.vue": {
-    "file": "assets/settings-rNRrOiR7.js",
+    "file": "assets/settings-D0sXskFG.js",
     "name": "settings",
     "src": "resources/js/Pages/jay-funds/dashboard/settings.vue",
     "isDynamicEntry": true,
     "imports": [
       "_@inertiajs-idqzzcli.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/shipment-update.vue": {
-    "file": "assets/shipment-update-BUovGeGy.js",
+    "file": "assets/shipment-update-D-1QYIkz.js",
     "name": "shipment-update",
     "src": "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
     "isDynamicEntry": true,
@@ -289,15 +324,15 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/Pages/jay-funds/dashboard/shipment.vue": {
-    "file": "assets/shipment-By7zXbE5.js",
+    "file": "assets/shipment-DvooqkYj.js",
     "name": "shipment",
     "src": "resources/js/Pages/jay-funds/dashboard/shipment.vue",
     "isDynamicEntry": true,
@@ -305,9 +340,9 @@
       "_@inertiajs-idqzzcli.js",
       "_lodash-es-5V_fX55d.js",
       "_vue-sonner-CNRxR9rf.js",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_general-table-qnopmzjN.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
@@ -403,7 +438,7 @@
     ]
   },
   "resources/js/Pages/tracker.vue": {
-    "file": "assets/tracker-BzKQW2iM.js",
+    "file": "assets/tracker-D-EXOcK7.js",
     "name": "tracker",
     "src": "resources/js/Pages/tracker.vue",
     "isDynamicEntry": true,
@@ -413,12 +448,12 @@
       "_footer-CTXQGjXr.js",
       "_general_ads_info-D0_hjWHC.js",
       "_headers-DRrVvBsL.js",
-      "_auth-controller-BVQgnTMs.js",
+      "_auth-controller-BThE5c9G.js",
       "_toggle-burger-Bj6Vy90_.js"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CK1H1a1X.js",
+    "file": "assets/app-B4fHORGf.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -436,11 +471,13 @@
       "resources/js/Pages/contact.vue",
       "resources/js/Pages/home.vue",
       "resources/js/Pages/jay-funds/backend/login.vue",
-      "_aside-BMbvmzdC.js",
+      "_aside-B9qYz83h.js",
       "_top-header-B2t93HM7.js",
       "resources/js/Pages/jay-funds/dashboard/history.vue",
       "resources/js/Pages/jay-funds/dashboard/home.vue",
       "resources/js/Pages/jay-funds/dashboard/notification.vue",
+      "resources/js/Pages/jay-funds/dashboard/read-mail.vue",
+      "resources/js/Pages/jay-funds/dashboard/receiver.vue",
       "resources/js/Pages/jay-funds/dashboard/settings.vue",
       "resources/js/Pages/jay-funds/dashboard/shipment-update.vue",
       "resources/js/Pages/jay-funds/dashboard/shipment.vue",

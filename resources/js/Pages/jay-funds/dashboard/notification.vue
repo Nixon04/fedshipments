@@ -32,7 +32,7 @@ onMounted(() => {
     <div>
       <Toaster position="top-right"/>
         <header>
-            <title>Create Blog | FundToCare</title>
+            <title>Notification | Fedshipments</title>
         </header>
 
 
@@ -43,14 +43,6 @@ onMounted(() => {
             <div class="main-body-column">
                 <div class="row gx-3 gy-2">
                     <div class="col-lg-12 col-md-12 col-12">
-                            <div class="d-flex justify-content-between mb-4">
-                                <Link href="/ftc/isiomablanksonchannel/dash/articles" class="text-dark">
-                                    <div class="d-flex">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><path fill="currentColor" fill-rule="evenodd" d="M10.53 5.47a.75.75 0 0 1 0 1.06l-4.72 4.72H20a.75.75 0 0 1 0 1.5H5.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0" clip-rule="evenodd"/></svg>
-                                    </div>
-                                </Link>
-                        </div>
-
                         <div class="d-flex justify-content-end gap-3 mb-5">
                             <div class="d-flex flex-column"> 
                               <div class="d-flex gap-3">

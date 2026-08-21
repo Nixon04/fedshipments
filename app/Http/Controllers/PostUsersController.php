@@ -642,6 +642,47 @@ class PostUsersController extends Controller
     }
 
 
+    
+
+    public function EmailReceiverPost(Request $request){
+        $perPage = $request->query('per_page', 15);
+        $search = $request->query('search');
+        $tabselect = $request->query('tabselect');
+
+        $query = DB::table('receiver_notifications as receiver')
+            ->select([
+                'receiver.email_id',
+                'receiver.from',
+                'receiver.message_id',
+                'receiver.receiver_from',
+                'receiver.subject',
+                'receiver.to',
+                'receiver.type',
+                'receiver.created_at',
+                'receiver.updated_at',
+            ])->orderBy('receiver.id', 'DESC');
+    
+        if ($search) {
+            $query->where(function ($q) use ($search) {
+                $q->where('receiver.subject', 'like', "%{$search}%") 
+                ->orWhere('receiver.from', 'like', "%{$search}%")
+                ->orWhere('receiver.to', 'like', "%{$search}%");
+            });
+        }
+        
+        if($tabselect !== null){
+            $query->where('receiver.status', $tabselect);
+        }
+    
+        $data = $query->paginate($perPage);
+
+        return response()->json([
+            'data' => $data,
+            'status' => 'success',
+        ]);
+    }
+
+
     public function ShipmentLog(Request $request){
         $perPage = $request->query('per_page', 15);
         $search = $request->query('search');
