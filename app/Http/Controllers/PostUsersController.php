@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Helpers\ErrorCollector;
 use App\Mail\BookingMailer;
 use App\Mail\EmailContactReach;
+use App\Mail\GeneralPublicMailer;
 use App\Models\Admin;
 use App\Models\EmailMailerContact;
 use App\Models\Shipment;
@@ -13,8 +14,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Resend\Laravel\Facades\Resend;
 
@@ -22,12 +25,151 @@ class PostUsersController extends Controller
 {
 
 
-    // Route::post('/login', 'LoginAccount');
-    // Route::post('/register', 'RegisterAccount');
-    // Route::post('/shipment', 'CreateShipment');
-    // Route::post('/tracking-id', 'TrackerID');
-    // Route::post('/update-location', 'ShipmentUpdate');
-    // Route::post('/update-address', 'CompanyAddress');
+    public function SendEmailLog(Request $request){
+    
+        $validate = Validator::make($request->all(), [
+            'content' => 'required',
+            'to' => 'required|string',
+            'from' => 'nullable|string',
+            'subject' => 'required|string',
+        ]);
+
+        if($validate->fails()){
+            return response()->json([
+                'message' => $validate->errors()->first(),
+                'status' => 'error',
+            ]);
+        }
+
+        Log::info('Editor Email Content', [
+            'content' => $request->input('content'),
+        ]);
+
+        try{
+            Resend::emails()->send([
+                'from' => 'Nixon <info@nivexiahealth.com>',
+                'to' => $request->input('to'),
+                'subject' => $request->input('subject'),
+                'html' => (new GeneralPublicMailer(
+                    $request->input('content'),
+                    $request->input('to'),
+                    $request->input('from'),
+                    $request->input('subject'),
+                ))->render(),
+            ]);
+
+            return response()->json([
+                'message' => 'Email Sent Successfully',
+                'status' => 'success',
+            ]);
+        }
+        catch(\Exception $e){
+            Log::info('error', [
+                'errors' =>  $e->getMessage(),
+            ]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Oops something went wrong',
+            ]);
+        }
+    }
+
+    public function BlogDeleteFiles(Request $request){
+        $validate = Validator::make($request->all(), [
+            'url' => 'required|url',
+        ]);
+
+        if($validate->fails()){
+            return response()->json([
+                'message' => $validate->errors()->first(),
+                'status' => 'error',
+            ]);
+        }
+
+        try { 
+        $url = $request->input('url'); 
+        
+         $path = parse_url($url, PHP_URL_PATH); 
+         if (!$path) { 
+            return response()->json(
+                [ 'message' => 'Invalid image URL.', 'status' => 'error', 
+            ], 400); 
+        } 
+
+        $path = ltrim($path, '/'); 
+        if (str_starts_with($path, 'storage/')) {
+         $path = substr($path, strlen('storage/')); 
+        } 
+   
+
+         if (!Storage::disk('private')->exists($path)) { 
+            return response()->json([ 
+                'message' => 'Image file not found.',
+                'status' => 'error', 
+             ], 404); 
+        }
+    
+        Storage::disk('private')->delete($path); 
+          return response()->json([ 'message' => 'Image deleted successfully.',
+           'status' => 'success', 'code' => '000',
+        ]);
+        }
+        catch(\Exception $e){
+            Log::info('error', [
+                'errors' =>  $e->getMessage(),
+            ]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Oops something went wrong',
+            ]);
+        }
+    }
+
+
+      public function BlogUploadFiles(Request $request){
+
+        Log::info('LogArray', [
+            'info' => $request->all(),
+        ]);
+
+        $validate = Validator::make($request->all(), [
+            'image' => 'required|file|max:5120|mimes:png,jpg,jpeg',
+        ]);
+
+        if($validate->fails()){
+            return response()->json([
+                'message' => $validate->errors()->first(),
+                'status' => 'error',
+            ]);
+        }
+
+        try{
+            $file_doc = $request->file('image');
+
+            $original_name = $file_doc->getClientOriginalName();
+            $origin_file = pathinfo($file_doc->getClientOriginalName(), PATHINFO_FILENAME);
+            $safe_relevant_video = preg_replace('/[^a-zA-Z0-9_\-]/', '_', $origin_file);
+            $relevant_file_name = uniqid() . '-' . $safe_relevant_video . '.' . $file_doc->getClientOriginalExtension();
+            $file_doc->storeAs('ftc_blog_images', $original_name, 'private');
+
+            return response()->json([
+                'success' => 1,
+                'file' => [
+                    'url' => route('ftc_blog_images', ['filename' => $original_name]),
+                ],
+            ]);
+        }   
+        catch(\Exception $e){
+            Log::info('error', [
+                'errors' =>  $e->getMessage(),
+            ]);
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Oops something went wrong',
+            ]);
+        }
+    }
+
 
 
     public function AccountLogout(Request $request){
@@ -85,7 +227,6 @@ class PostUsersController extends Controller
 
 
     public function ShipmentUpdate(Request $request){
-
         $validate = Validator::make($request->all(), [
             'reference' => 'required|string',
             'status' => 'required|in:picked_up,in_transit,checkpoint,arrived,out_for_delivery,delivered',
@@ -151,7 +292,6 @@ class PostUsersController extends Controller
             'next_stop' => $request->input('nextstop'),
         ]);
         
-
         if($request->input('status') == 'delivered'){
             $queryshipment->update([
                 'status' => 'delivered',
@@ -185,7 +325,6 @@ class PostUsersController extends Controller
             ]);
         }
     }
-
 
 
 
@@ -500,10 +639,6 @@ class PostUsersController extends Controller
             ]);
         }
     }
-
-
-
-
 
 
     public function ShipmentLog(Request $request){

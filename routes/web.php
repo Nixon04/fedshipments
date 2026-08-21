@@ -4,6 +4,22 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\GeneralController;
 use App\Http\Controllers\PostUsersController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
+
+Route::get('/ftc_blog_images/{filename}', function ($filename) {
+    $filename = basename($filename);
+    $path = storage_path('app/private/ftc_blog_images/' . $filename);
+    if (!File::exists($path)) {
+        abort(404, 'Image not found');
+    }
+    $mime = File::mimeType($path);
+    if (!str_starts_with($mime, 'image/')) {
+        abort(403, 'Invalid file type');
+    }
+    return response()->file($path, [
+        'Cache-Control' => 'public, max-age=86400',
+    ]);
+  })->name('ftc_blog_images');
 
 Route::controller(GeneralController::class)->group(function (){
     Route::get('/','MainHome');
@@ -38,7 +54,9 @@ Route::controller(PostUsersController::class)->group(function (){
         Route::post('/update-address', 'CompanyAddress');
         Route::post('/logout', 'AccountLogout');
     });
-   
+    Route::post('/endpoint/upload-blog-files', 'BlogUploadFiles');
+    Route::post('/endpoint/delete-blog-file', 'BlogDeleteFiles');
+    Route::post('/endpoint/send-email', 'SendEmailLog');
 });
 
 
@@ -48,8 +66,10 @@ Route::controller(AdminController::class)->group(function (){
         Route::get('/jay-funds/dashboard/home','HomeDashboard');
         Route::get('/jay-funds/dashboard/settings','Settings');
         Route::get('/jay-funds/dashboard/shipment','Shipment');
+        Route::get('/jay-funds/dashboard/notification','NotificationSettings');
         Route::get('/jay-funds/dashboard/shipment-update/{id}','ShipmentUpdate');
         Route::get('/jay-funds/dashboard/history','History');
+        
     });
 
 });

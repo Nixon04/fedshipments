@@ -12,13 +12,11 @@ use Inertia\Inertia;
 class AdminController extends Controller
 {
     public function AdminLogin(){
-
         return Inertia::render('jay-funds/backend/login', [
         ]);
     }
 
     public function HomeDashboard(){
-
         $total = Shipment::orderBy('id', 'DESC')->count();
         $in_transit = ShipmentTrackingUpdate::where('status', 'in_transit')->orderBy('id', 'DESC')->count();
         $delivered = ShipmentTrackingUpdate::where('status', 'delivered')->orderBy('id', 'DESC')->count();
@@ -35,6 +33,10 @@ class AdminController extends Controller
 
     public function Settings(){
         return Inertia::render('jay-funds/dashboard/settings');
+    }
+
+    public function NotificationSettings(){
+        return Inertia::render('jay-funds/dashboard/notification');
     }
 
     public function Shipment(){
@@ -65,6 +67,5 @@ class AdminController extends Controller
             'shipmentUpdates' => $updates,
         ]);
     }
-
 }
 
