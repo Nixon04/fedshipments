@@ -205,7 +205,7 @@
     ]
   },
   "resources/js/Pages/jay-funds/backend/login.vue": {
-    "file": "assets/login-Bg9ttPKw.js",
+    "file": "assets/login-ChczaTqa.js",
     "name": "login",
     "src": "resources/js/Pages/jay-funds/backend/login.vue",
     "isDynamicEntry": true,
@@ -418,7 +418,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-u3dRpdKO.js",
+    "file": "assets/app-xKYjDgTC.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

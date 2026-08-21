@@ -19,7 +19,7 @@ const pages = usePage();
     <div>
         <Toaster position="top-right"/>
         <header>
-            <title>Fedshipment | Contact Us</title>
+            <title>Fedshipment | Admin</title>
         </header>
         <div class="nix-main">
                <headers/>
