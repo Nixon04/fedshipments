@@ -87,6 +87,12 @@ body,html{
     z-index: 1;
 }
 
+.img-flux-absolute{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
 .nix-main-float-right{
     position: absolute;
     top: 100px;
@@ -180,6 +186,7 @@ body,html{
     padding-top: 90px;
     height: auto;
     padding-bottom: 0;
+    z-index: 1;
 }
 
 
@@ -188,6 +195,7 @@ body,html{
     position: relative;
     height: auto;
     background: var(--main-background-color);
+    overflow: hidden;
 }
 .logo-icon{
     width: 100px;

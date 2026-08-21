@@ -47,9 +47,10 @@ class PostUsersController extends Controller
 
         try{
             Resend::emails()->send([
-                'from' => 'Nixon <info@nivexiahealth.com>',
+                'from' => 'Clark <info@fedshipments.com>',
                 'to' => $request->input('to'),
                 'subject' => $request->input('subject'),
+                'reply_to' => 'info@fedshipments.com',
                 'html' => (new GeneralPublicMailer(
                     $request->input('content'),
                     $request->input('to'),

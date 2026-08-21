@@ -39,14 +39,11 @@ const pages = usePage();
 
                 <section class="section-border py-5 p-3 background-grey">
                     <div class="min-auto-flex">
-                
                         <div class="row justify-content-center align-items-center gy-4">
-                
                             <!-- Left Side -->
                             <div class="col-lg-5 d-none d-lg-block">
                                 <div class="call-border-card h-100">
                                     <div class="text-center p-4">
-                
                                         <img
                                             :src="AssetImage('feds-dark-logo.png')"
                                             class="img-fluid mb-4"

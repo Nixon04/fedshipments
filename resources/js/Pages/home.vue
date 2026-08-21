@@ -18,6 +18,7 @@ const togglecontroller = useToggleBurger();
         <div class="nix-main">
             <headers/>
                 <section class="nix-flex-container-all">
+                    <img :src="AssetImage('fedshipments_masked_total.png')" class="img-fluid img-flux-absolute"/>
                     <div class="nix-main-content">
                         <div class="min-auto-flex">
                             <div class="row gx-1 gy-1 py-5 p-3">
